@@ -49,5 +49,9 @@
   "homepage": "https://github.com/Pratik5252/ai-testing-tool",
   "bugs": {
     "url": "https://github.com/Pratik5252/ai-testing-tool/issues"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "vitest": "^4.1.5"
   }
 }

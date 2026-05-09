@@ -1,0 +1,16 @@
+{
+  "framework": "vitest",
+  "outputDir": "./tests",
+  "filePatterns": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.jsx",
+    "**/*.tsx"
+  ],
+  "excludePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "**/*.test.*"
+  ]
+}
