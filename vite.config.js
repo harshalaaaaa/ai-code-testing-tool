@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: process.env.PORT || 5173,
+    port: process.env.PORT || 10000,
     allowedHosts: ['ai-code-testing-tool.onrender.com']
   }
 })
