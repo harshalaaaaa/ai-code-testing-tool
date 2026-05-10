@@ -1,14 +1,18 @@
+<<<<<<< HEAD
 # Node modules
 node_modules
 node_modules/
 server/node_modules/
 
+=======
+>>>>>>> 958d8a22c718f187221bd1bb77068b3502e3f6f3
 # Logs
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 # Dependency directories
 jspm_packages/
@@ -56,3 +60,23 @@ temp/
 # Lock files (optional if you don't want to track)
 # package-lock.json
 # yarn.lock
+=======
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 958d8a22c718f187221bd1bb77068b3502e3f6f3
