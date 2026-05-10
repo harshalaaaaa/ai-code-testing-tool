@@ -19,7 +19,7 @@ function App() {
       );
 
       const data = await response.json();
-      setResult(data.result || JSON.stringify(data));
+      setResult(data.choices[0].message.content);
     } catch (error) {
       console.error(error);
       setResult("Error connecting to server");
